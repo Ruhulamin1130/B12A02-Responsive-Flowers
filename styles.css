@@ -24,6 +24,9 @@
 .txt-clr2 {
   color: black;
 }
+.txt-clr3 {
+  color: #e95a08;
+}
 .btn {
   background-color: #e95a08;
   color: #ffffff;
@@ -51,7 +54,23 @@
 .nav-link a {
   text-decoration: none;
 }
+/* nav end */
 
+/* banner styles start here */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-des {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
 /* Responsive start here */
 /* mobile devises */
 @media screen and (max-width: 576px) {
@@ -62,5 +81,19 @@
   span {
     font-size: 1.8rem;
     padding: 15px 10px 0px 0px;
+  }
+  /* banner responsive here */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner img {
+    max-width: 100%;
+  }
+  .banner-texts {
+    padding: 0 16px;
+  }
+  h3.banner-title {
+    font-size: 24px;
+    font-weight: 800;
   }
 }
