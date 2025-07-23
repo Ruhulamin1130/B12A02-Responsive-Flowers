@@ -83,11 +83,13 @@ img {
 }
 /* banner end */
 /* our plants start */
-.plants {
+.plants,
+.latest-detils {
   text-align: center;
   margin-bottom: 45px;
 }
-.plants-title {
+.plants-title,
+.latest-title {
   font-size: 3.4rem;
   font-weight: 700;
 }
@@ -167,10 +169,12 @@ ul.love-list li {
     font-weight: 800;
   }
   /* our plants responsive */
-  h3.plants-title {
+  h3.plants-title,
+  h3.latest-title {
     font-size: 2rem;
   }
-  .plants-des {
+  .plants-des,
+  .latest-des {
     padding: 0 15px;
   }
   /* card responsive here */
