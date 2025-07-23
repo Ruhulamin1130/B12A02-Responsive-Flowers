@@ -30,8 +30,13 @@
 .btn {
   background-color: #e95a08;
   color: #ffffff;
-  padding: 26px 50px;
-  border-radius: 10px;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-weight: 600;
+  /* padding: 26px 50px; */
+  /* border-radius: 10px; */
 }
 
 /* header styles start here */
@@ -81,6 +86,25 @@
   font-size: 3.4rem;
   font-weight: 700;
 }
+/* our plants end */
+/* cards start */
+.cards-parents {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card {
+  text-align: center;
+}
+.card h4 {
+  font-size: 1rem;
+  color: #111111;
+}
+.card h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #111111;
+}
 /* Responsive start here */
 /* mobile devises */
 @media screen and (max-width: 576px) {
@@ -108,9 +132,17 @@
   }
   /* our plants responsive */
   h3.plants-title {
-    font-weight: 2rem;
+    font-size: 2rem;
   }
   .plants-des {
     padding: 0 15px;
+  }
+  /* card responsive here */
+  .cards-parents {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .card img {
+    max-width: 100%;
   }
 }
