@@ -1,5 +1,66 @@
 * {
-  width: 0;
-  height: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* use anywhere when you need */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.txt-clr1 {
+  color: #8987a1;
+}
+.txt-clr2 {
+  color: black;
+}
+.btn {
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 26px 50px;
+  border-radius: 10px;
+}
+
+/* header styles start here */
+/* nav bar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0 auto;
+}
+.nav-items {
+  display: flex;
+  gap: 20px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-link a {
+  text-decoration: none;
+}
+
+/* Responsive start here */
+/* mobile devises */
+@media screen and (max-width: 576px) {
+  .nav-list {
+    display: none;
+  }
+
+  span {
+    font-size: 1.8rem;
+    padding: 15px 10px 0px 0px;
+  }
 }
