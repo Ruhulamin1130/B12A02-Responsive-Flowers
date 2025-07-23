@@ -71,6 +71,16 @@
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.5);
 }
+/* banner end */
+/* our plants start */
+.plants {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.plants-title {
+  font-size: 3.4rem;
+  font-weight: 700;
+}
 /* Responsive start here */
 /* mobile devises */
 @media screen and (max-width: 576px) {
@@ -95,5 +105,12 @@
   h3.banner-title {
     font-size: 24px;
     font-weight: 800;
+  }
+  /* our plants responsive */
+  h3.plants-title {
+    font-weight: 2rem;
+  }
+  .plants-des {
+    padding: 0 15px;
   }
 }
