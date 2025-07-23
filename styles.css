@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Noto Serif", serif;
 }
-
+img {
+  /* max-width: 100%; */
+}
 .noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -13,6 +15,9 @@
   font-variation-settings: "wdth" 100;
 }
 /* use anywhere when you need */
+.hidden {
+  display: none;
+}
 
 .container {
   max-width: 1140px;
@@ -92,6 +97,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  margin-bottom: 50px;
 }
 .card {
   text-align: center;
@@ -104,6 +110,36 @@
   font-size: 1.3rem;
   font-weight: 800;
   color: #111111;
+}
+/* cards ends */
+/* plants-lover start here */
+
+.plant-lover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin: 60px auto;
+}
+
+.lover-img img {
+  max-width: 100%;
+  display: block;
+}
+.lover-img {
+  flex: 1;
+}
+.lover-texts {
+  flex: 1;
+}
+
+h3.love-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+ul.love-list li {
+  color: gray;
+  padding: 10px;
 }
 /* Responsive start here */
 /* mobile devises */
@@ -141,8 +177,18 @@
   .cards-parents {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+    padding: 5px;
   }
   .card img {
     max-width: 100%;
+  }
+  /* card ends */
+  /* plants lover starts */
+  .plant-lover {
+    flex-direction: column;
+    padding: 10px;
+  }
+  h3.love-title {
+    font-size: 2rem;
   }
 }
