@@ -43,6 +43,14 @@ img {
   /* padding: 26px 50px; */
   /* border-radius: 10px; */
 }
+.btn2 {
+  background-color: #e95a08;
+  color: #ffffff;
+  height: 50px;
+  width: 186px;
+  font-weight: 600;
+  border: none;
+}
 
 /* header styles start here */
 /* nav bar styles */
@@ -143,6 +151,34 @@ ul.love-list li {
   color: gray;
   padding: 10px;
 }
+/* plants lover end */
+/* join design start */
+.join {
+  background-image: url(./assets/news-letter-bg.png);
+
+  text-align: center;
+  height: 533px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join img {
+  width: 100%;
+}
+h3.join-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+input {
+  height: 50px;
+  width: 644px;
+  background-color: #ffffff;
+  color: #8987a1;
+  border: none;
+}
 /* Responsive start here */
 /* mobile devises */
 @media screen and (max-width: 576px) {
@@ -194,5 +230,16 @@ ul.love-list li {
   }
   h3.love-title {
     font-size: 2rem;
+  }
+  /* join responsive */
+  h3.join-title {
+    font-size: 20px;
+  }
+  input[type="email"] {
+    width: 270px;
+  }
+  .btn2 {
+    width: auto;
+    padding: 0 10px;
   }
 }
