@@ -152,6 +152,75 @@ ul.love-list li {
   padding: 10px;
 }
 /* plants lover end */
+
+/* shop now sections start here */
+.shop-now {
+  display: flex;
+  gap: 20px;
+}
+.shop-left {
+  width: 30%;
+}
+.shop-right {
+  width: 65%;
+}
+.bg-img1 {
+  background-image: url(./assets/deal-bloom.png);
+}
+
+.bg-img2 {
+  background-image: url(./assets/deal-ana.png);
+}
+.bg-blk {
+  background-color: rgba(0, 0, 0, 20);
+}
+.bg-img1,
+.bg-img2 {
+  height: 201px;
+  width: 100%;
+  background-size: cover;
+
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.bg-img3 {
+  background-image: url(./assets/deal-zabo.png);
+  height: 423px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+h3.ana,
+h3.bloom {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.bg-img1 a,
+.bg-img2 a {
+  color: #ffffff;
+}
+.bg-img3 a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+h3.zabo {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 /* join design start */
 .join {
   background-image: url(./assets/news-letter-bg.png);
@@ -161,6 +230,7 @@ ul.love-list li {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
 }
 .join img {
   width: 100%;
@@ -257,7 +327,21 @@ p.footer-des {
   h3.love-title {
     font-size: 2rem;
   }
+  /* shop now sections */
+  .bg-img1,
+  .bg-img2,
+  .bg-img3 {
+    width: 400px;
+    height: 185px;
+  }
+  .shop-now {
+    flex-direction: column;
+    margin: 0 10px;
+  }
   /* join responsive */
+  .join {
+    height: 300px;
+  }
   h3.join-title {
     font-size: 20px;
   }
