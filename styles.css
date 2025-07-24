@@ -122,6 +122,19 @@ img {
   color: #111111;
 }
 /* cards ends */
+/* trust */
+.trast img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.trast {
+  width: 250px;
+  height: 124px;
+  position: relative;
+  margin-top: -71px;
+  margin-left: 480px;
+}
 /* plants-lover start here */
 
 .plant-lover {
@@ -368,5 +381,8 @@ p.footer-des {
   }
   .footer .link-parents {
     grid-template-columns: 1fr;
+  }
+  .trast {
+    display: none;
   }
 }
